@@ -1,4 +1,10 @@
-# A template repository for NA565 final project
+# All our experiments can be found in exps* folders. They also contain tensorboard files which can be used to visualize our experiments.
+## Below are the changes that we made to secure 3rd postion in bad weather 3d bounding box detection.
+    1. We used OneCycleLr as Learning Rate Scheduler for 200 epochs. 
+    2. Applied Data Augumentations techiniques to simulate bad weather condition. 
+    3. We used RandomFog, GlassBlur and did various experiments with their values to simulate foggy weather.
+
+# Below are the instructions from the original repo for setting up the environement.
 This repo is accommodated from [MonoCon](https://github.com/2gunsu/monocon-pytorch) for the NA565 final project. 
 
 After setting up the envionment and converting the final project dataset into the KITTI format, the training code should work directly. 
